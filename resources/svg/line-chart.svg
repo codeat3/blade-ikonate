@@ -1,4 +1,4 @@
-<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="lineChartIconTitle" fill="currentColor">
+<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="lineChartIconTitle" fill="none" stroke="currentColor">
     <title id="lineChartIconTitle">Line Chart</title>    
     <path d="M3,16 L8,11"/>
     <circle cx="9" cy="10" r="1"/>

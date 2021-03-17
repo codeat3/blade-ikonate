@@ -1,4 +1,4 @@
-<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="muteIconTitle" fill="currentColor">
+<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="muteIconTitle" fill="none" stroke="currentColor">
     <title id="IconTitle">Mute</title>    
     <path d="M18 10L22 14M18 14L22 10"/>
     <path d="M13 5v14l-5-4H3V9h5z"/>

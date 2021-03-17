@@ -1,4 +1,4 @@
-<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="errorIconTitle" fill="currentColor">
+<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="errorIconTitle" fill="none" stroke="currentColor">
     <title id="errorIconTitle">Error</title>    
     <path d="M12 8L12 13"/>
     <line x1="12" y1="16" x2="12" y2="16"/>

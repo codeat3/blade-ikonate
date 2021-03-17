@@ -1,4 +1,4 @@
-<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-labelledby="chatWarningIconTitle" fill="currentColor">
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-labelledby="chatWarningIconTitle" fill="none" stroke="currentColor">
 	<title id="chatWarningIconTitle">Chat with a warning state</title>
 	<path d="M12 7V11"/>
 	<path d="M21 4V17H13L7 21V17H3V4H21Z"/>

@@ -1,4 +1,4 @@
-<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-labelledby="tableHorizontalIconTitle" fill="currentColor">
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-labelledby="tableHorizontalIconTitle" fill="none" stroke="currentColor">
 	<title id="tableHorizontalIconTitle">Data table</title>
 	<path d="M22 4V19H2L2 4L22 4Z"/>
 	<line x1="22" y1="9" x2="2" y2="9"/>

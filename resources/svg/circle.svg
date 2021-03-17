@@ -1,4 +1,4 @@
-<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="circleIconTitle" fill="currentColor">
+<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="circleIconTitle" fill="none" stroke="currentColor">
     <title id="circleIconTitle">Circle</title>    
     <circle cx="12" cy="12" r="8"/>
 </svg>

@@ -1,4 +1,4 @@
-<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="circleOkIconTitle" fill="currentColor">
+<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="circleOkIconTitle" fill="none" stroke="currentColor">
     <title id="circleOkIconTitle">OK</title>    
     <polyline points="7 13 10 16 17 9"/>
     <circle cx="12" cy="12" r="10"/>

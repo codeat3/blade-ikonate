@@ -1,4 +1,4 @@
-<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-labelledby="retweetIconTitle" fill="currentColor">
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-labelledby="retweetIconTitle" fill="none" stroke="currentColor">
 	<title id="retweetIconTitle">Retweet</title>
 	<path d="M13 18L6 18L6 7"/>
 	<path d="M3 9L6 6L9 9"/>

@@ -1,4 +1,4 @@
-<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="cutIconTitle" fill="currentColor">
+<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="cutIconTitle" fill="none" stroke="currentColor">
     <title id="cutIconTitle">Cut</title>    
     <path d="M3 18L15 9M15 15L3 6"/>
     <circle cx="18" cy="7" r="3"/>

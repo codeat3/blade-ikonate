@@ -1,4 +1,4 @@
-<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="arrowRightIconTitle" fill="currentColor">
+<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="arrowRightIconTitle" fill="none" stroke="currentColor">
     <title id="arrowRightIconTitle">Arrow Right</title>    
     <path d="M15 18l6-6-6-6"/>
     <path d="M3 12h17"/>

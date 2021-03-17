@@ -1,4 +1,4 @@
-<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-labelledby="folderWarningIconTitle" fill="currentColor">
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-labelledby="folderWarningIconTitle" fill="none" stroke="currentColor">
 	<title id="folderWarningIconTitle">Folder with a warning state</title>
 	<path d="M12 10V13"/>
 	<path d="M3 5H9L10 7H21V19H3V5Z"/>
