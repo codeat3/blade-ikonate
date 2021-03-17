@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://banners.beyondco.de/Blade%20SIkonate.png?theme=light&packageManager=composer+require&packageName=codeat3%2Fblade-ikonate&pattern=architect&style=style_1&description=A+package+to+use+Ikonate+Icons+in+your+Laravel+Blade+views&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" width="1280" title="Social Card Blade Ikonate Icons">
+    <img src="https://banners.beyondco.de/Blade%20Ikonate.png?theme=light&packageManager=composer+require&packageName=codeat3%2Fblade-ikonate&pattern=architect&style=style_1&description=A+package+to+use+Ikonate+Icons+in+your+Laravel+Blade+views&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" width="1280" title="Social Card Blade Ikonate Icons">
 </p>
 
 # Blade Simple Icons
