@@ -1,0 +1,7 @@
+<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="gridLargeIconTitle" fill="currentColor">
+    <title id="gridLargeIconTitle">Large Grid</title>    
+    <rect x="3" y="3"/>
+    <rect x="14" y="3"/>
+    <rect x="3" y="14"/>
+    <rect x="14" y="14"/>
+</svg>
