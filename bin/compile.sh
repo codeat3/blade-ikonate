@@ -3,12 +3,15 @@
 set -e
 
 # prepare the source of icons by cloning the repo
-TEMP_DIR=tmp
+TEMP_DIR=blade-icon-temp-dir
+DIRECTORY=$(cd `dirname $0` && pwd)
+
 mkdir -p $TEMP_DIR
 SOURCE=$TEMP_DIR/ikonate
-git clone git@github.com:mikolajdobrucki/ikonate.git $TEMP_DIR/ikonate
-
-DIRECTORY=$(cd `dirname $0` && pwd)
+# git clone git@github.com:mikolajdobrucki/ikonate.git $TEMP_DIR/ikonate
+cd $SOURCE
+git pull
+cd $DIRECTORY/../
 RESOURCES=$DIRECTORY/../resources/svg
 
 echo $SOURCE
@@ -31,8 +34,6 @@ for ICON_DIR in $SOURCE/icons/*; do
 done
 
 echo "copied all svgs!"
-echo "Removing "$TEMP_DIR
-rm -rf $TEMP_DIR
 
 echo "All Done!"
-# echo "Run `php bin/compile.php` to update the svgs"
+echo "Run `php bin/compile.php` to update the svgs"
