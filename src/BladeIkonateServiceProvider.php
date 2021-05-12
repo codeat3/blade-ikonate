@@ -6,25 +6,38 @@ namespace Codeat3\BladeIkonate;
 
 use BladeUI\Icons\Factory;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Contracts\Container\Container;
 
 final class BladeIkonateServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
-        $this->callAfterResolving(Factory::class, function (Factory $factory) {
-            $factory->add('ikonate', [
-                'path' => __DIR__.'/../resources/svg',
-                'prefix' => 'ik',
-            ]);
+        $this->registerConfig();
+
+        $this->callAfterResolving(Factory::class, function (Factory $factory, Container $container) {
+            $config = $container->make('config')->get('blade-ikonate', []);
+
+            $factory->add('ikonate', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
         });
+
+    }
+
+    private function registerConfig(): void
+    {
+        $this->mergeConfigFrom(__DIR__.'/../config/blade-ikonate.php', 'blade-ikonate');
     }
 
     public function boot(): void
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../resources/svg' => public_path('vendor/blade-ik'),
-            ], 'blade-ik');
+                __DIR__.'/../resources/svg' => public_path('vendor/blade-ikonate'),
+            ], 'blade-ikonate');
+
+            $this->publishes([
+                __DIR__.'/../config/blade-ikonate.php' => $this->app->configPath('blade-ikonate.php'),
+            ], 'blade-ikonate-config');
         }
     }
+
 }
