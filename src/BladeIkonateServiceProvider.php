@@ -32,7 +32,7 @@ final class BladeIkonateServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->publishes([
                 __DIR__.'/../resources/svg' => public_path('vendor/blade-ikonate'),
-            ], 'blade-ikonate');
+            ], 'blade-ik'); // TODO: update the alias to more readable `blade-ikonate` in the next major release
 
             $this->publishes([
                 __DIR__.'/../config/blade-ikonate.php' => $this->app->configPath('blade-ikonate.php'),
