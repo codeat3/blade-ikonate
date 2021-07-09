@@ -19,7 +19,6 @@ final class BladeIkonateServiceProvider extends ServiceProvider
 
             $factory->add('ikonate', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
         });
-
     }
 
     private function registerConfig(): void
@@ -39,5 +38,4 @@ final class BladeIkonateServiceProvider extends ServiceProvider
             ], 'blade-ikonate-config');
         }
     }
-
 }
