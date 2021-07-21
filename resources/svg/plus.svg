@@ -1,1 +1,1 @@
-<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="plusIconTitle" fill="none" stroke="currentColor"><title>Plus</title><path d="M20 12L4 12M12 4L12 20"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" aria-labelledby="plusIconTitle" fill="none" stroke="currentColor"><title id="plusIconTitle">Plus</title><path d="M20 12L4 12M12 4L12 20"/></svg>
