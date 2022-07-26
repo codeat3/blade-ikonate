@@ -17,24 +17,24 @@ final class BladeIkonateServiceProvider extends ServiceProvider
         $this->callAfterResolving(Factory::class, function (Factory $factory, Container $container) {
             $config = $container->make('config')->get('blade-ikonate', []);
 
-            $factory->add('ikonate', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
+            $factory->add('ikonate', array_merge(['path' => __DIR__ . '/../resources/svg'], $config));
         });
     }
 
     private function registerConfig(): void
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/blade-ikonate.php', 'blade-ikonate');
+        $this->mergeConfigFrom(__DIR__ . '/../config/blade-ikonate.php', 'blade-ikonate');
     }
 
     public function boot(): void
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../resources/svg' => public_path('vendor/blade-ikonate'),
+                __DIR__ . '/../resources/svg' => public_path('vendor/blade-ikonate'),
             ], 'blade-ik'); // TODO: update the alias to more readable `blade-ikonate` in the next major release
 
             $this->publishes([
-                __DIR__.'/../config/blade-ikonate.php' => $this->app->configPath('blade-ikonate.php'),
+                __DIR__ . '/../config/blade-ikonate.php' => $this->app->configPath('blade-ikonate.php'),
             ], 'blade-ikonate-config');
         }
     }
